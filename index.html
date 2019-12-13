@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="pt-br" class>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>FabSoft</title>
+
+
+  <!--link href="http://www.upf.br/Assets/css/main.css" rel="stylesheet"-->
+  <link href="./css/main-upf.css" rel="stylesheet">
+  <link href="http://www.upf.br/Assets/css/custom.css" rel="stylesheet">
+  <link href="https://www.upf.br/StyleSite/CorSite.css/357?id=357" rel="stylesheet">
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/agency.css" rel="stylesheet">
+
+
+</head>
+
+<body id="page-top" class>
+
+<div class="menu-faculdade template1">
+  <nav class="nav-acessibilidade desktop">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <ul>
+            <li class="logo-new">
+              <a href="https://www.upf.br/">
+                <img class="brand" alt="Universidade de Passo Fundo" src="https://www.upf.br/Assets/img/logo-template.png">
+              </a>
+            </li>
+            <li class="new-link"><a href="https://www.upf.br/estude-na-upf"><span>estude na upf</span></a></li>
+            <li class="new-link"><a href="https://www.upf.br/unidades-academicas"><span>unidades acadêmicas</span></a></li>
+
+            <li><a href="https://www.upf.br/recursos/acessibilidade"><span class="acessibilidadeTemplate">Acessibilidade</span></a></li>
+            <li class="contraste rg"><button class="btn"><span>Alto Contraste</span></button></li>
+
+
+            <li class="dropdown">
+                <ul class="dropdown-menu" aria-labelledby="busca-drop">
+                  <li class="input-group">
+                    <form id="formBuscaGeral" name="formBuscaGeral" method="get" action="/sufc/busca-geral">
+                      <label class="sr-only" for="chaveBuscaGeral">Digite aqui o que procura</label>
+                      <input type="text" class="form-control" id="chaveBuscaGeral" name="chaveBuscaGeral" placeholder="Digite aqui o que procura">
+                      <span class="input-group-btn">
+              			    <button class="btn" type="submit" id="btn-buscaGeral">
+              				    <span class="sr-only">botão busca</span>
+              				    <span class="fa fa-search" aria-hidden="true"></span>
+              			    </button>
+              		    </span>
+                    </form>
+                  </li>
+                </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" >
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="dropdown nav-secundaria-mobile especial open">
+          <a href="https://www.upf.br/">
+            <img class="brand" alt="Universidade de Passo Fundo" src="https://www.upf.br/Assets/img/logo-template.png">
+          </a>
+          <!-- <button id="menu-secundario" type="button" class="navbar-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <span class="sr-only">abre menu secundario</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="menu-header-mobile-sec">Menu</span>
+          <div class="dropdown-menu" aria-labelledby="menu-secundario">
+            <ul class="acessibilidade">
+              <li class="lf"><a href="/recursos/acessibilidade">Acessibilidade</a></li>
+              <li class="contraste rg"><a onclick="return false;" href="index.html">Alto Contraste</a></li>
+            </ul>
+            <ul class="menu-lista">
+              <li><a href="https://www.upf.br/estude-na-upf">estude na upf</a></li>
+              <li><a href="https://www.upf.br/unidades-academicas">unidades acadêmica</a></li>
+            </ul>
+            <div class="menu-right-footer">
+
+              <div class="input-group">
+                <form id="formBuscaGeral" name="formBuscaGeral" method="get" action="/sufc/busca-geral">
+                  <div class="input-group">
+                    <label class="sr-only" for="chaveBuscaGeral">Digite aqui o que procura</label>
+                    <input type="text" class="form-control" id="chaveBuscaGeral" name="chaveBuscaGeral" placeholder="Digite aqui o que procura">
+                    <span class="input-group-btn">
+                        <button class="btn" type="submit">
+                            <span class="sr-only">botão busca</span>
+                            <span class="fa fa-search" aria-hidden="true"></span>
+                        </button>
+                    </span>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <button class="btn fechar-btn" type="button">
+              <span class="sr-only">fechar menu secundário</span>
+              <span class="fa fa-times"></span>
+            </button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="nav-primaria desktop cor-template hover-escuro cor-claro">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- <div class="dropdown ">
+            <button id="menu-primario" type="button" class="navbar-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">abre menu principal</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <span class="menu-header-mobile">Menu</span>
+
+            <div class="dropdown-menu" aria-labelledby="menu-primario">
+              <ul class="nav-mobile">
+
+                <li class="level-1 ">
+                  <a href="https://www.upf.br/" target="_self">FABSOFT</a>
+                </li>
+                <li class="level-1 dropdown submenu ">
+                  <a href="#services" target="_self">Serviços</a>
+                  <ul class="dropdown-menu">
+                    <li class="level-2 ">
+                      <a href="https://www.upf.br/sufc/apresentacao/comissao-organizadora" target="_self">Comissão organizadora</a>
+                    </li>
+
+                  </ul>
+                </li>
+                <li class="level-1 dropdown submenu ">
+                  <a href="https://www.upf.br/sufc/programacao" target="_self">Programação</a>
+                  <ul class="dropdown-menu">
+                    <li class="level-2 ">
+                      <a href="https://www.upf.br/sufc/programacao/apresentacao-de-trabalhos" target="_self">Apresentação de Trabalhos</a>
+                    </li>
+
+                  </ul>
+                </li>
+                <li class="level-1 ">
+                  <a href="https://www.upf.br/sufc/inscricoes" target="_self">Inscrições</a>
+                </li>
+                <li class="level-1 ">
+                  <a href="#about">Sobre A Fábrica</a>
+                </li>
+                <li class="level-1 ">
+                  <a href="https://www.upf.br/sufc/contato" target="_self">Contato</a>
+                </li>
+              </ul>
+              <button class="btn fechar-btn" type="button">
+                <span class="sr-only">fechar menu secundário</span>
+                <span class="fa fa-times"></span>
+              </button>
+            </div>
+          </div> -->
+          <ul class="navbar-right nav-desktop new-nav">
+
+            <li class="level-1 ">
+              <a href="#page-top">FABSOFT</a>
+            </li>
+            <li class="level-1 dropdown submenu ">
+              <a href="#services" target="_self">Serviços</a>
+              <ul class="dropdown-menu">
+                <li class="level-2 ">
+                  <a href="https://www.upf.br/sufc/apresentacao/comissao-organizadora" target="_self">Comissão organizadora</a>
+                </li>
+
+              </ul>
+            </li>
+            <li class="level-1 dropdown submenu ">
+              <a  href="#portfolio" >Infraestrutura</a>
+              <ul class="dropdown-menu">
+                <li class="level-2 ">
+                  <a href="https://www.upf.br/sufc/programacao/apresentacao-de-trabalhos" target="_self">Apresentação de Trabalhos</a>
+                </li>
+
+              </ul>
+            </li>
+            <li class="level-1 ">
+              <a href="#team">Equipe</a>
+            </li>
+            <li class="level-1 ">
+              <a href="#about">Sobre a Fábrica</a>
+            </li>
+            <li class="level-1 ">
+              <a href="#contact">Entre em Contato</a>
+            </li>
+
+
+          </ul>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<!-- Navigation -->
+<!--  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">-->
+<!--    <div class="container">-->
+<!--      <a class="navbar-brand js-scroll-trigger" href="#page-top">FABSOFT</a>-->
+<!--      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--        Menu-->
+<!--        <i class="fas fa-bars"></i>-->
+<!--      </button>-->
+<!--      <div class="collapse navbar-collapse" id="navbarResponsive">-->
+<!--        <ul class="navbar-nav text-uppercase ml-auto">-->
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link js-scroll-trigger" href="#services">Servicos</a>-->
+<!--          </li>-->
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link js-scroll-trigger" href="#portfolio">Infraestrutura</a>-->
+<!--          </li>-->
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link js-scroll-trigger" href="#about">Sobre a Fabrica</a>-->
+<!--          </li>-->
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link js-scroll-trigger" href="#team">Equipe</a>-->
+<!--          </li>-->
+<!--          <li class="nav-item">-->
+<!--            <a class="nav-link js-scroll-trigger" href="#contact">Entre em Contato</a>-->
+<!--          </li>-->
+<!--          </li>-->
+
+<!--        </ul>-->
+
+
+<!--      </div>-->
+<!--    </div>-->
+<!--  </nav>-->
+
+<!-- Header -->
+<header class="masthead">
+  <div class="container">
+    <div class="intro-text">
+      <div class="intro-lead-in">Bem Vindo à</div>
+      <div class="intro-heading text-uppercase">Fábrica de Software</div>
+      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Serviços</a>
+    </div>
+  </div>
+</header>
+
+
+<!-- Sobre -->
+<section class="page-section" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Sobre a Fábrica</h2>
+        <h3 class="section-subheading text-muted">Fábrica Experimental de desenvolvimento de software</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+
+        <div class="timeline-panel">
+
+          <div class="timeline-heading">
+            <h4 class="subheading">A Fábrica</h4>
+          </div>
+
+          <div class="timeline-body">
+            <p class="text-muted">Vinculado ao instituto de Ciências Exatas e Geociência - ICEG da UPF, a fábrica Experimental de Desenvolvimento de Software - FabsSoft, visa atender demandas por inovação e qualificação em produtos e serviços de software multiplataforma. </p>
+          </div>
+        </div>
+
+        <div class="timeline-body">
+          <p class="text-muted">Constitui-se de um ambiente colaborativo para projetos de desenvolvimento de software que integram o ensino, a pesquisa, a extensão e o mercado, potencializando a inovação e a geração de novos negócios e a geração de novos negócios para o crescimento do setor de TI regional.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+</section>
+
+<section class="page-section" id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Serviços</h2>
+        <h3 class="section-subheading text-muted">Conheça nossos serviços</h3>
+      </div>
+    </div>
+    <div class="row text-center">
+      <ul id="servicostopicos" class="text-muted">
+        <li>Prestar consultoria em projetos de pesquisa, desenvolvimento e inovação em Tecnologia da Informação.</li>
+        <li>Desenvolver software em diferentes plataformas.</li>
+        <li>Realizar testes de software.</li>
+        <li>Promover capacitações, palestras, workshops em novas tecnologias da informação. </li>
+        <li>Auxiliar no processo formativo de equipes para atuarem com tecnologias da informação.</li>
+        <li>Desenvolver modelos de processos para atividades de pesquisa e inovação em desenvolvimento e testes de software multiplataforma.</li>
+        <li>Projetar soluções com tecnologias de ciência de dados (IA, Big Data, Data Mining).</li>
+        <li>Apoiar projetos baseados em uso de Drones.</li>
+        <li>Oferecer recursos tecnológicos (IoT, servidores, impressão 3D) para projetos de Tecnologia da Informação.</li>
+
+
+
+      </ul>
+    </div>
+
+  </div>
+  </div>
+</section>
+
+
+<!-- Infraestrutura -->
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Infraestrutura</h2>
+        <h3 class="section-subheading text-muted">Nossa Infraestrutura</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="infra/geralInfra.jpg" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Escritório</h4>
+          <p class="text-muted">Visão Geral</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="infra/servidores.jpg" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Servidor</h4>
+          <p class="text-muted">Servidores e Storage</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="infra/impressao3D.jpg" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Impressora 3D</h4>
+          <p class="text-muted">CL2 - PRO PLUS</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="infra/drones.jpg" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Drones</h4>
+          <p class="text-muted">Phantom 4</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="infra/iot.jpg" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>IOT</h4>
+          <p class="text-muted">Internet of Things</p>
+        </div>
+      </div>
+      <!--<div class="col-md-4 col-sm-6 portfolio-item">
+        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fas fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="infra/realidadeVirtual.png" alt="">
+        </a>
+        <div class="portfolio-caption">
+          <h4>Realidade Virtual</h4>
+          <p class="text-muted">Óculos de realidade virtual</p>
+        </div>
+      </div>-->
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Equipe -->
+<section  id="team">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Equipe</h2>
+
+      </div>
+
+      <!-- Professores -->
+
+
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="professores/jaqson.jpg" alt="">
+          <h4>Jaqson Dalbosco</h4>
+          <p class="text-muted">Coordenador do Projeto</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="professores/zanatta.jpg" alt="">
+          <h4>Alexandre Zanatta</h4>
+          <p class="text-muted">Professor Colaborador</p>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle vertical-img" src="professores/bernardo.jpg" alt="">
+          <h4>Bernardo Prates</h4>
+          <p class="text-muted">Funcionário Colaborador</p>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="professores/maciel.jpg" alt="">
+          <h4>Jose Maciel</h4>
+          <p class="text-muted">Professor Colaborador</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="professores/eder.JPG" alt="">
+          <h4>Eder Pazinatto</h4>
+          <p class="text-muted">Professor Colaborador</p>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="professores/jeangrei.jpg" alt="">
+          <h4>Jeangrei Veiga</h4>
+          <p class="text-muted">Professor Colaborador</p>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="team-member">
+          <img class="mx-auto rounded-circle" src="professores/billy.jpg" alt="">
+          <h4>Victor Billy</h4>
+          <p class="text-muted">Professor Colaborador</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Fim Professores -->
+
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Clientes -->
+
+<section class="page-section" id="services">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Parceiros</h2>
+        <h3 class="section-subheading text-muted">Conheça nossos parceiros</h3>
+      </div>
+    </div>
+  </div>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <a href="http://elevor.com/" target="_blank">
+            <img class="img-fluid d-block mx-auto" src="logos/renove.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="http://splora.com.br/" target="_blank">
+            <img class="img-fluid d-block mx-auto" src="logos/splora.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="http://metasig.com.br/" target="_blank">
+            <img class="img-fluid d-block mx-auto" src="logos/metasig.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="https://www.agrofy.com.br/stara?gclid=EAIaIQobChMIx5Tk_On25QIVioiRCh057gTAEAAYASAAEgJbn_D_BwE"  target="_blank">
+            <img class="img-fluid d-block mx-auto" src="teste/logo-stara.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="https://www.optim.eng.br/"  target="_blank">
+            <img class="img-fluid d-block mx-auto" src="logos/optim.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="https://www.jm-kids.com/contato"  target="_blank">
+            <img class="img-fluid d-block mx-auto" src="teste/logo-jmkids.webp" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="#"  target="_blank">
+            <img class="img-fluid d-block mx-auto" src="logos/southbox.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="http://visionnit.com.br/"   target="_blank">
+            <img class="img-fluid d-block mx-auto" src="logos/visionnit.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="https://inovamate.com.br/"   target="_blank">
+            <img class="img-fluid d-block mx-auto" src="teste/logo-inovamate.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="https://inel.ind.br/"  target="_blank">
+            <img class="img-fluid d-block mx-auto" src="teste/logo-inel.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <a href="#"  target="_blank">
+            <img class="img-fluid d-block mx-auto" src="teste/" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</section>
+
+<!-- Contato -->
+<section class="page-section" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">Entre em Contato</h2>
+        <h3 class="section-subheading text-muted"></h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+
+        <p >
+          BR 285 - KM 292,7 - Campus Sao José
+        </p>
+        <p>
+          Sala 07, Modulo III, UPF Parque
+        </p>
+        <p>
+          fabsoft@upf.br
+        </p>
+        <p>
+          (54) 3316 - 8345 - Ramal 5804
+        </p>
+
+
+      </div>
+
+
+      <div class="col-sm-4">
+        <div class="team-member">
+
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="team-member">
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+
+
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-superior">
+    <div class="container">
+      <div class="row">
+        <div class="col-llg-7 col-lg-6">
+          <div class="row">
+            <div class="col-sm-4">
+              <a href="http://fupf.upf.br/" target="_blank"><p class="header">FUNDAÇÃO UPF</p></a>
+            </div>
+            <div class="col-sm-4">
+              <a href="http://integrado.upf.br/" target="_blank"><p class="header">INTEGRADO UPF</p></a>
+            </div>
+            <div class="col-sm-4">
+              <a href="http://upfidiomas.upf.br/" target="_blank"><p class="header">UPF IDIOMAS</p></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <a href="https://www.upf.br/calendario-academico" target="_self"><p class="content">CALENDÁRIO ACADÊMICO</p></a>
+            </div>
+            <div class="col-sm-4">
+              <a href="https://www.upf.br/editais" target="_self"><p class="content">EDITAIS</p></a>
+            </div>
+            <div class="col-sm-4">
+              <a href="https://www.upf.br/trabalhe-com-a-upf" target="_self"><p class="content">TRABALHE COM A UPF</p></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-llg-5 col-lg-6">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="link-box">
+                <a href="http://upf.br/ouvidoria" class="btn btn-footer" role="button">
+                  <span class="fa fa-comments-o" aria-hidden="true"></span>
+                  ouvidoria
+                </a>
+
+
+
+                <a href="javascript:void(window.open('http://docs.upf.br/aviso.php', 'ATENDIMENTO', 'width=600, height=600'))" class="btn btn-footer" role="button">
+                  <span class="fa fa-commenting-o" aria-hidden="true"></span>
+                  atendimento online
+                </a>
+
+                <a href="https://www.upf.br/contato" class="btn btn-footer" role="button">
+                  <span class="fa fa-phone" aria-hidden="true"></span>
+                  contato
+                </a>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="link-info-box">
+                <a href="tel: 054 33167000" role="button" class="phone">
+                  <span class="fa fa-phone" aria-hidden="true"></span>
+                  (54) 3316.7000
+                </a>
+                <a href="mailto:informacoes@upf.br" role="button">
+                  <span class="fa fa-envelope" aria-hidden="true"></span>
+                  informacoes@upf.br
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-inferior">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-5">
+          <p class="header">Conhecimento é a nossa natureza.</p>
+          <p class="content">
+            ROD BR 285, KM 292,7 - Campus I | São José | Passo Fundo/RS | CEP: 99052-900
+
+          </p>
+        </div>
+        <div class="col-md-6 col-sm-7">
+          <div class="social-box">
+            <a href="https://www.facebook.com/universidadedepassofundo" target="_blank">
+              <img src="https://www.upf.br/Assets/img/facebook.jpg" alt="facebook">
+            </a>
+            <a href="https://twitter.com/universidadeupf" target="_blank">
+              <img src="https://www.upf.br/Assets/img/twitter.jpg" alt="twitter">
+            </a>
+            <a href="https://www.instagram.com/universidadeupf/" target="_blank">
+              <img src="https://www.upf.br/Assets/img/instagram.jpg" alt="instagram">
+            </a>
+            <a href="https://www.linkedin.com/edu/school?id=10612" target="_blank">
+              <img src="https://www.upf.br/Assets/img/linkedl.jpg" alt="linkedl">
+            </a>
+            <a href="https://www.youtube.com/UPFoficial" target="_blank">
+              <img src="https://www.upf.br/Assets/img/youtube.png" alt="Youtube">
+            </a>
+
+            <a href="https://www.flickr.com/universidadedepassofundo/" target="_blank">
+              <img src="https://www.upf.br/Assets/img/flickr.png" alt="Flickr">
+            </a>
+
+            <a href="http://www.axysweb.com.br" target="_blank">
+              <img src="https://www.upf.br/Assets/img/axys.png" class="axys" alt="Axysweb">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Portfolio Modals -->
+
+<!-- Modal 1 -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">Escritório</h2>
+              <p class="item-intro text-muted">Infraestrutura</p>
+              <img class="img-fluid d-block mx-auto" src="teste/infra1.jpg" alt="">
+              <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+              <img class="img-fluid d-block mx-auto" src="teste/infra4.jpg" alt="">
+
+
+              <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+
+              <img class="img-fluid d-block mx-auto" src="infra/equipamentos1.jpg" alt="">
+              <h4>Equipamentos disponíveis na  Fábrica de Software</h4>
+              <ul id="equipamentos1">
+                <li>Switch: 24 portas Gigabit 10/100/1000 RJ45</li>
+                <li>Computador Desktop com sistema operacional iOS. Tela integrada de retina, 4K de 21,5'</li>
+                <li>Notebook com sistema operacional iOS.</li>
+                <li>Computador desktop. Sistema Operacional Windows 10. Monitor com tela de 23'' de LED, HDMI. Resolução mínima de 1920 X 1080, com ajuste de altura, teclado e mouse, Nobreak 1.5KVA, entrada bivolt e saída 115</li>
+                <li>Notebook com sistema operacional windows 10</li>
+                <li>Servidor com 2 processadores XEON E5-2603V3.</li>
+                <li>Multifuncional a laser com impressão colorida</li>
+                <li>WiFi Serial Transceiver Module w/ESP8266 - 1MB Flash</li>
+                <li>Impressora CL2 - PRO PLUS</li>
+                <li>Drone DJI Phantom 4</li>
+                <li>Smartphone com sistema operacional iOS; Tela 4,7”; 16 GB de memória</li>
+                <li>Smartphone Multilaser MS45S com sistema operacional android; Tela 4,5”; Quad Core 16 Hz; 8GB de memória </li>
+                <li>Smartphone K10 com sistema operacional Android. 32GB de memória; Tela 5.1”; Android 6.0; OctaCore</li>
+                <li>Smartphone com sistema operacional Android; Tela de 4”; 8GB de memória</li>
+                <li>Tablet com sistema operacional iOS; Tela de 9,7”; Wi-Fi; 64GB</li>
+                <li>Tablet com sistema operacional iOS; Tela 7,9”; Wi-Fi; 16GB</li>
+                <li>Tablet com sistema operacional Android; Tela 7''; WI-FI; 8GB</li>
+                <li>Placa de desenvolvimento módulo wifi ESP8266 série 8266 8266 desenvolvimento SDK</li>
+                <li>Smart TV LED 55" Samsung</li>
+                <li>Smart TV LED 50" Samsung</li>
+                <li>Tablet com sistema operacional Android. 4G; 32 GB; Tela 8"</li>
+                <li>Switch 26 portas gigabit</li>
+                <li>Impressora jato de tinta eco bank</li>
+                <li>Modulo MicroRWD “QT” (Quad-Tag)</li>
+                <li>OEM-NFC-MIFARE-USB_BlackCase(000277) - Firmware 190314</li>
+                <li>Coletor de dados Leitura/Gravação UHF 900 MHz, Leitura/Gravação HF 13,56 MHz, IP-65, WLAN, Bluetooth Class II v2.1+EDR, GPS, Android, Scanner 1D / 2D Imager</li>
+                <li>Arduino UNO R3</li>
+                <li>Impressora RFID PX6i</li>
+                <li>Leitor RFID UHF Protocolos RFID:EPCGlobal Gen2 (ISO 18000-6C),ISO 18000-6B, IP-X (EM 412x); 4 Conectores TNC reverso</li>
+                <li>Pulseira de Silicone UHF: Tipo passivo. Protocolo RF: ISO/IEC 18000-6C / EPCglobal Class 1 Gen 2.; Frequência de Operação: 860-960 MHz.; Configuração de memória: 96 bits EPC; 512 bits Memória de Usuário; 32 bits TID. ; Distância de leitura: até 1,5 m.</li>
+                <li>Antena UHF Monoestática 9 dBi</li>
+                <li>Access Point Wi-Fi standard, 802.11ac Wave 2, for speeds up to 2.34 Gbps com 4 antenas</li>
+                <li>Impressora de Etiquetas 203dpi com RFID + Software</li>
+                <li>Smartphone Android, Octa Core,Android 5.1.1, Tela 5.4´, 64GB, 21MP,4G, Dual Chip, Desbloqueado</li>
+                <li>NFC Printed Products Sample Kit</li>
+                <li>Raspberry PI 3</li>
+                <li>RWD-SDK</li>
+                <li>RWD-Firmware (000113) - Firmware 180314</li>
+                <li>ANT1356M (000144)</li>
+                <li>Leitor UHF AT-911</li>
+                <li>WORLD TAG Q5 - 30 mm</li>
+                <li>Estimote Development Kit with 3 Location Beacons</li>
+                <li>Estimote Development Kit with 3 Proximity Beacons</li>
+                <li>WebCam Full HD</li>
+                <li>Dev Kit with 10 Sticker Beacons</li>
+                <li>NFC Developer Tag Kit</li>
+                <li>TMS320C6657 Lite Evaluation Modules</li>
+                <li>SimpleLink Wi-Fi CC3200 LaunchPad</li>
+                <li>E-Health Sensor Platform V2.0 compatível com Arduino e Raspberry Pi</li>
+                <li>Contactless NFC Portable Reader/Writer</li>
+                <li>NFC Reader/Writer USB</li>
+                <li>NFC Mobile Card Reader: 3.5mm Audio Jack Interface, bateria Lithiumion; Smart Card Reader: ISO 14443</li>
+                <li>Yun Shield para Arduino</li>
+                <li>Tablet IP65 industrial RFID UHF</li>
+                <li>Leitor UHF USB RF-300</li>
+                <li>Leitor UHF BLUETOOTH</li>
+                <li>Crachá RFID</li>
+                <li>CHIP RFID TAG</li>
+                <li>Tag RFID UFH longo alcance 25metros</li>
+                <li>Mesa Touch Screen 42"</li>
+                <li>Totem interativo touch screen capacitivo 40”
+                <li>Modulo MicroRWD “QT” (Quad-Tag)</li>
+                <li>MODULO; INTERFACE ANTENA Q; 1 UH; MICRORWD MF; ANT-1356M</li>
+              </ul>
+
+
+
+
+
+
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Fechar Projeto</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">Servidor e Storage</h2>
+              <p class="item-intro text-muted">Infraestrutura</p>
+              <img class="img-fluid d-block mx-auto" src="infra/servidor.png" alt="">
+              <p>Storage é um hardware que contém slots para vários discos, ligado aos servidores através de ISCSI ou fibra ótica. Ele é uma peça altamente redundante e cumpre com louvor a sua missão, que é armazenar os dados da sua empresa com segurança</p>
+              <img class="img-fluid d-block mx-auto" src="infra/storage.png" alt="">
+              <p>O storage pode aceitar diversas conexões de servidores diferentes, ao mesmo tempo. Então a sua matriz RAID, além de segura, ficará altamente portável. Tem casos onde o cliente armazena o disco de boot dos servidores dentro do storage.</p>
+              <p><p> Caso queira informações extras clique <a href="https://www.dellemc.com/pt-br/storage/data-storage.htm" target="_blank">aqui</a></p>
+
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Fechar Projeto</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">Impressora 3D</h2>
+              <p class="item-intro text-muted">Infraestrutura</p>
+              <img class="img-fluid d-block mx-auto" src="infra/cl2pro.jpg" alt="">
+              <p>Ideal para projetos que necessitam de qualidade de impressão. Seus protótipos são impressos em um ambiente fechado, garantindo maior estabilidade e proteção contra resíduos. Compacta e com menor ruído durante a impressão, é perfeita para estar em seu laboratório de desenvolvimento de produtos.</p>
+              <p> Caso queira informações extras clique <a href="https://store.cliever.com/produtos/impressora-3d-cl2-pro/" target="_blank">aqui</a></p>
+
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Fechar Projeto</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 4 -->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">Drones</h2>
+              <p class="item-intro text-muted">Infraestrutura</p>
+              <img class="img-fluid d-block mx-auto" src="infra/drones2.jpg" alt="">
+              <p>
+                O Phantom 4 é um drone da fabricante chinesa DJI com câmera embutida 4K e três modos de voo inteligentes. O modelo já está à venda no Brasil e pode ser utilizado por iniciantes ou profissionais para fazer fotos e vídeos de uma altura de até 1,5 km. O eletrônico não é dobrável, mas promete estabilização no ar e autonomia de 28 minutos
+              <p>Caso queira informações extras clique <a href="https://www.dji.com/br/phantom-4-pro?site=brandsite&from=nav" target="_blank">aqui</a></p>
+
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Fechar Projeto</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 5 -->
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">"Internet das Coisas"</h2>
+              <p class="item-intro text-muted">Infraestrutura</p>
+              <img class="img-fluid d-block mx-auto" src="infra/RFID.png" alt="">
+              <p>As impressoras térmicas são máquinas voltadas para empresas que precisam imprimir etiquetas, códigos de barras, recibos, comprovantes e outras coisas com certa frequência. Por exemplo, lojas, supermercado, hospitais e indústrias. A vantagem dela para as outras é que essa não precisa de cartucho ou toner. A impressora térmica produz a imagem/texto em um papel termocrômico, parecido com o do fax, quando a cabeça de impressão aquece e “queima”as áreas especificadas, formando o texto ou a imagem desejada. </p>
+              <p> Caso queira informações extras clique <a href="https://www.zebra.com/br/pt/products/printers/desktop/performance-desktop-printers.html" target="_blank">aqui<a> </p>
+              <img class="img-fluid d-block mx-auto" src="infra/beacon.png" alt="">
+              <p>Os Beacons são aparelhos que emitem um sinal de rádio através da tecnologia bluetooth low energy (BLE), conhecida também como bluetooth 4.0. Esses sinais podem ser captados por aplicativos de smartphones e tablets, e podem ser interpretados como gatilhos para uma determinada ação em um aplicativo.</p>
+              <p> Desse modo é como se os Beacons fossem GPS para ambientes fechados, contudo, eles não conseguem detectar a localização geográfica. Eles conseguem dizer se o dispositivo está perto ou longe do local instalado.</p>
+              <p>Caso queira informações extras clique <a href="https://developers.google.com/beacons" target="_blank">aqui<a></p>
+              <img class="img-fluid d-block mx-auto" src="infra/raspberry.jpg" alt=>
+
+              <p>É um pequeno dispositivo que permite que as pessoas  possam explorar a computação para aprender a programar em linguagens como Python. É capaz de fazer tudo que um computador desktop realize, como navegar na internet, reproduzir vídeo de alta definição, fazer planilhas, processamento de texto, e jogar jogos. </p>
+              <p> Caso queira informações extras clique <a href="https://www.raspberrypi.org/" target="_blank">aqui<a> </p>
+
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Fechar Projeto</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 6 -->
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2 class="text-uppercase">óculos de Realidade Virtual</h2>
+              <p class="item-intro text-muted">Infraestrutura</p>
+              <img class="img-fluid d-block mx-auto" src="infra/oculos1.png" alt="">
+              <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+              <img class="img-fluid d-block mx-auto" src="infra/oculos2.png" alt="">
+              <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+              <img class="img-fluid d-block mx-auto" src="infra/oculos3.png" alt="">
+              <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+              <img class="img-fluid d-block mx-auto" src="infra/oculos4.png" alt="">
+              <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+              <ul class="list-inline">
+                <li>Date: January 2017</li>
+                <li>Client: Window</li>
+                <li>Category: Photography</li>
+              </ul>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                Fechar Projeto</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Bootstrap core JavaScript -->
+<!--  <script src="vendor/jquery/jquery.min.js"></script>-->
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-1.12.3.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<script type="text/javascript" src="https://www.upf.br/Assets/js/main.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery.mobile.custom-1.4.5.min.js"></script>
+
+<script type="text/javascript" src="https://www.upf.br/Assets/js/SiteTemplate1Index.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery.mobile.custom-1.4.5.min.js"
+<script  type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery.mobile.custom-1.4.5.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Contact form JavaScript -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+
+<!-- Custom scripts for this template -->
+<!--  <script src="js/agency.min.js"></script>-->
+
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-1.12.3.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/bootstrap-3.3.6.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/pt-BR/global.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/pt-BR/globalMask.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-globalize/globalize.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-globalize/cultures/globalize.culture.pt-BR.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-validation/dist/additional-methods.min.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-toastr/toastr.min.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery.blockui.min.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery.mobile.custom-1.4.5.min.js"></script>
+<script type="text/javascript" async="" src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/4c5c42bd-078a-4d1b-ab75-ec3407874568-loader.js"></script>
+<script type="text/javascript" src="https://www.upf.br/WebResource.axd?d=SQIs7WJ1Tn0Mbu3X15u67v1LC4e3Ly_7Eg_13xacrIQdVwfwknDe_Nl2E0_D4y-6bJ18II6xmmB6sjo8ouE4IMBTdoFVfde116TLdCsM7w5NqLa6JLI1_10TQH51bVNXU_hlMG6q9-YuLdU4Xv4i_9cYxRCZzpaf6O-jrl_BPE01&amp;t=636683074774797627"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/bootbox/bootbox.min.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-file-upload/js/vendor/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-file-upload/js/vendor/load-image.min.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-file-upload/js/vendor/canvas-to-blob.min.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-file-upload/js/jquery.iframe-transport.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-file-upload/js/jquery.fileupload.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-file-upload/js/jquery.fileupload-process.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-file-upload/js/jquery.fileupload-image.js"></script>
+<script type="text/javascript" src="https://www.upf.br/Assets/js/lib/jquery-file-upload/js/jquery.fileupload-audio.js"></script>
+
+
+
+<a href="#page-top"><button id="btntop"   >  Topo </button></a>
+</body>
+
+</html>
